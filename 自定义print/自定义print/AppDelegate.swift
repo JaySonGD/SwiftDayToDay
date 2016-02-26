@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  自定义Log
+//  自定义print
 //
 //  Created by czljcb on 16/2/26.
 //  Copyright © 2016年 czljcb. All rights reserved.
@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        CZLog("333")
         return true
     }
 

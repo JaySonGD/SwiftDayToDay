@@ -1,6 +1,6 @@
 //
-//  ___LogUITests.swift
-//  自定义LogUITests
+//  ___printUITests.swift
+//  自定义printUITests
 //
 //  Created by czljcb on 16/2/26.
 //  Copyright © 2016年 czljcb. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ___LogUITests: XCTestCase {
+class ___printUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

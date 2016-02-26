@@ -1,15 +1,15 @@
 //
-//  ___LogTests.swift
-//  自定义LogTests
+//  ___printTests.swift
+//  自定义printTests
 //
 //  Created by czljcb on 16/2/26.
 //  Copyright © 2016年 czljcb. All rights reserved.
 //
 
 import XCTest
-@testable import ___Log
+@testable import ___print
 
-class ___LogTests: XCTestCase {
+class ___printTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
