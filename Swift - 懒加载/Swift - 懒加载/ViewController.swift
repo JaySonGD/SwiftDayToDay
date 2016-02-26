@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // ********************************************************************************************************
+    // MARK: - < 懒加载 >
+
     lazy var dataPlist : [Int] = {
         
         print("第一次加载数据")
