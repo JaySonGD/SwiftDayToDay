@@ -11,7 +11,7 @@ import UIKit
 class HTTPTool: NSObject {
     
     var url :String?
-    var myBlock : ((String) -> ())?
+    var myBlock : ( (String) -> () )?
 
     
     func load(myBlock :(String) -> ()){
