@@ -14,6 +14,10 @@
 		AB438EF71C8023E700F3D325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB438EF51C8023E700F3D325 /* LaunchScreen.storyboard */; };
 		AB438F021C8023E700F3D325 /* Swift___tableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB438F011C8023E700F3D325 /* Swift___tableViewTests.swift */; };
 		AB438F0D1C8023E700F3D325 /* Swift___tableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB438F0C1C8023E700F3D325 /* Swift___tableViewUITests.swift */; };
+		AB979AC01C8032020071B930 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB979ABE1C8032020071B930 /* MyCell.swift */; };
+		AB979AC11C8032020071B930 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB979ABF1C8032020071B930 /* MyCell.xib */; };
+		AB979AC31C803C310071B930 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB979AC21C803C310071B930 /* TableViewController.swift */; };
+		AB979AC51C8043280071B930 /* SBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB979AC41C8043280071B930 /* SBCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AB438F081C8023E700F3D325 /* Swift - tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - tableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB438F0C1C8023E700F3D325 /* Swift___tableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___tableViewUITests.swift"; sourceTree = "<group>"; };
 		AB438F0E1C8023E700F3D325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB979ABE1C8032020071B930 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		AB979ABF1C8032020071B930 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		AB979AC21C803C310071B930 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AB979AC41C8043280071B930 /* SBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				AB438EEC1C8023E700F3D325 /* AppDelegate.swift */,
 				AB438EEE1C8023E700F3D325 /* ViewController.swift */,
+				AB979AC21C803C310071B930 /* TableViewController.swift */,
 				AB438EF01C8023E700F3D325 /* Main.storyboard */,
 				AB438EF31C8023E700F3D325 /* Assets.xcassets */,
 				AB438EF51C8023E700F3D325 /* LaunchScreen.storyboard */,
 				AB438EF81C8023E700F3D325 /* Info.plist */,
+				AB979ABE1C8032020071B930 /* MyCell.swift */,
+				AB979ABF1C8032020071B930 /* MyCell.xib */,
+				AB979AC41C8043280071B930 /* SBCell.swift */,
 			);
 			path = "Swift - tableView";
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB438EF71C8023E700F3D325 /* LaunchScreen.storyboard in Resources */,
+				AB979AC11C8032020071B930 /* MyCell.xib in Resources */,
 				AB438EF41C8023E700F3D325 /* Assets.xcassets in Resources */,
 				AB438EF21C8023E700F3D325 /* Main.storyboard in Resources */,
 			);
@@ -260,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB438EEF1C8023E700F3D325 /* ViewController.swift in Sources */,
+				AB979AC01C8032020071B930 /* MyCell.swift in Sources */,
+				AB979AC51C8043280071B930 /* SBCell.swift in Sources */,
 				AB438EED1C8023E700F3D325 /* AppDelegate.swift in Sources */,
+				AB979AC31C803C310071B930 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +501,7 @@
 				AB438F131C8023E700F3D325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB438F141C8023E700F3D325 /* Build configuration list for PBXNativeTarget "Swift - tableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				AB438F161C8023E700F3D325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB438F171C8023E700F3D325 /* Build configuration list for PBXNativeTarget "Swift - tableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				AB438F191C8023E700F3D325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
