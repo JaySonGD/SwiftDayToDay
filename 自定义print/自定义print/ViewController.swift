@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         //        print("\(__LINE__)")
         
         CZLog("4455")
-        test(2, 3)
+        test(2,  3)
     }
     
     override func didReceiveMemoryWarning() {
