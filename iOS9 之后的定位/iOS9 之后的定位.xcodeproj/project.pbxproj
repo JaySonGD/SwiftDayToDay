@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCA76141C91AA6400A4D6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA76131C91AA6400A4D6F9 /* AppDelegate.swift */; };
+		ABCA76161C91AA6400A4D6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA76151C91AA6400A4D6F9 /* ViewController.swift */; };
+		ABCA76191C91AA6400A4D6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA76171C91AA6400A4D6F9 /* Main.storyboard */; };
+		ABCA761B1C91AA6400A4D6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCA761A1C91AA6400A4D6F9 /* Assets.xcassets */; };
+		ABCA761E1C91AA6400A4D6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCA761C1C91AA6400A4D6F9 /* LaunchScreen.storyboard */; };
+		ABCA76291C91AA6400A4D6F9 /* iOS9______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA76281C91AA6400A4D6F9 /* iOS9______Tests.swift */; };
+		ABCA76341C91AA6400A4D6F9 /* iOS9______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCA76331C91AA6400A4D6F9 /* iOS9______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCA76251C91AA6400A4D6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCA76081C91AA6400A4D6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCA760F1C91AA6400A4D6F9;
+			remoteInfo = "iOS9 之后的定位";
+		};
+		ABCA76301C91AA6400A4D6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCA76081C91AA6400A4D6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCA760F1C91AA6400A4D6F9;
+			remoteInfo = "iOS9 之后的定位";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABCA76101C91AA6400A4D6F9 /* iOS9 之后的定位.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS9 之后的定位.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA76131C91AA6400A4D6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABCA76151C91AA6400A4D6F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABCA76181C91AA6400A4D6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABCA761A1C91AA6400A4D6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABCA761D1C91AA6400A4D6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABCA761F1C91AA6400A4D6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCA76241C91AA6400A4D6F9 /* iOS9 之后的定位Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS9 之后的定位Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA76281C91AA6400A4D6F9 /* iOS9______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS9______Tests.swift"; sourceTree = "<group>"; };
+		ABCA762A1C91AA6400A4D6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCA762F1C91AA6400A4D6F9 /* iOS9 之后的定位UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS9 之后的定位UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA76331C91AA6400A4D6F9 /* iOS9______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS9______UITests.swift"; sourceTree = "<group>"; };
+		ABCA76351C91AA6400A4D6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCA760D1C91AA6400A4D6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA76211C91AA6400A4D6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA762C1C91AA6400A4D6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCA76071C91AA6400A4D6F9 = {
+			isa = PBXGroup;
+			children = (
+				ABCA76121C91AA6400A4D6F9 /* iOS9 之后的定位 */,
+				ABCA76271C91AA6400A4D6F9 /* iOS9 之后的定位Tests */,
+				ABCA76321C91AA6400A4D6F9 /* iOS9 之后的定位UITests */,
+				ABCA76111C91AA6400A4D6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCA76111C91AA6400A4D6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA76101C91AA6400A4D6F9 /* iOS9 之后的定位.app */,
+				ABCA76241C91AA6400A4D6F9 /* iOS9 之后的定位Tests.xctest */,
+				ABCA762F1C91AA6400A4D6F9 /* iOS9 之后的定位UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCA76121C91AA6400A4D6F9 /* iOS9 之后的定位 */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA76131C91AA6400A4D6F9 /* AppDelegate.swift */,
+				ABCA76151C91AA6400A4D6F9 /* ViewController.swift */,
+				ABCA76171C91AA6400A4D6F9 /* Main.storyboard */,
+				ABCA761A1C91AA6400A4D6F9 /* Assets.xcassets */,
+				ABCA761C1C91AA6400A4D6F9 /* LaunchScreen.storyboard */,
+				ABCA761F1C91AA6400A4D6F9 /* Info.plist */,
+			);
+			path = "iOS9 之后的定位";
+			sourceTree = "<group>";
+		};
+		ABCA76271C91AA6400A4D6F9 /* iOS9 之后的定位Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA76281C91AA6400A4D6F9 /* iOS9______Tests.swift */,
+				ABCA762A1C91AA6400A4D6F9 /* Info.plist */,
+			);
+			path = "iOS9 之后的定位Tests";
+			sourceTree = "<group>";
+		};
+		ABCA76321C91AA6400A4D6F9 /* iOS9 之后的定位UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA76331C91AA6400A4D6F9 /* iOS9______UITests.swift */,
+				ABCA76351C91AA6400A4D6F9 /* Info.plist */,
+			);
+			path = "iOS9 之后的定位UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCA760F1C91AA6400A4D6F9 /* iOS9 之后的定位 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA76381C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位" */;
+			buildPhases = (
+				ABCA760C1C91AA6400A4D6F9 /* Sources */,
+				ABCA760D1C91AA6400A4D6F9 /* Frameworks */,
+				ABCA760E1C91AA6400A4D6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS9 之后的定位";
+			productName = "iOS9 之后的定位";
+			productReference = ABCA76101C91AA6400A4D6F9 /* iOS9 之后的定位.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCA76231C91AA6400A4D6F9 /* iOS9 之后的定位Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA763B1C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位Tests" */;
+			buildPhases = (
+				ABCA76201C91AA6400A4D6F9 /* Sources */,
+				ABCA76211C91AA6400A4D6F9 /* Frameworks */,
+				ABCA76221C91AA6400A4D6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCA76261C91AA6400A4D6F9 /* PBXTargetDependency */,
+			);
+			name = "iOS9 之后的定位Tests";
+			productName = "iOS9 之后的定位Tests";
+			productReference = ABCA76241C91AA6400A4D6F9 /* iOS9 之后的定位Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCA762E1C91AA6400A4D6F9 /* iOS9 之后的定位UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA763E1C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位UITests" */;
+			buildPhases = (
+				ABCA762B1C91AA6400A4D6F9 /* Sources */,
+				ABCA762C1C91AA6400A4D6F9 /* Frameworks */,
+				ABCA762D1C91AA6400A4D6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCA76311C91AA6400A4D6F9 /* PBXTargetDependency */,
+			);
+			name = "iOS9 之后的定位UITests";
+			productName = "iOS9 之后的定位UITests";
+			productReference = ABCA762F1C91AA6400A4D6F9 /* iOS9 之后的定位UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCA76081C91AA6400A4D6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = czljcb;
+				TargetAttributes = {
+					ABCA760F1C91AA6400A4D6F9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					ABCA76231C91AA6400A4D6F9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABCA760F1C91AA6400A4D6F9;
+					};
+					ABCA762E1C91AA6400A4D6F9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABCA760F1C91AA6400A4D6F9;
+					};
+				};
+			};
+			buildConfigurationList = ABCA760B1C91AA6400A4D6F9 /* Build configuration list for PBXProject "iOS9 之后的定位" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCA76071C91AA6400A4D6F9;
+			productRefGroup = ABCA76111C91AA6400A4D6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCA760F1C91AA6400A4D6F9 /* iOS9 之后的定位 */,
+				ABCA76231C91AA6400A4D6F9 /* iOS9 之后的定位Tests */,
+				ABCA762E1C91AA6400A4D6F9 /* iOS9 之后的定位UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCA760E1C91AA6400A4D6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA761E1C91AA6400A4D6F9 /* LaunchScreen.storyboard in Resources */,
+				ABCA761B1C91AA6400A4D6F9 /* Assets.xcassets in Resources */,
+				ABCA76191C91AA6400A4D6F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA76221C91AA6400A4D6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA762D1C91AA6400A4D6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCA760C1C91AA6400A4D6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA76161C91AA6400A4D6F9 /* ViewController.swift in Sources */,
+				ABCA76141C91AA6400A4D6F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA76201C91AA6400A4D6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA76291C91AA6400A4D6F9 /* iOS9______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA762B1C91AA6400A4D6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA76341C91AA6400A4D6F9 /* iOS9______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCA76261C91AA6400A4D6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCA760F1C91AA6400A4D6F9 /* iOS9 之后的定位 */;
+			targetProxy = ABCA76251C91AA6400A4D6F9 /* PBXContainerItemProxy */;
+		};
+		ABCA76311C91AA6400A4D6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCA760F1C91AA6400A4D6F9 /* iOS9 之后的定位 */;
+			targetProxy = ABCA76301C91AA6400A4D6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABCA76171C91AA6400A4D6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCA76181C91AA6400A4D6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCA761C1C91AA6400A4D6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCA761D1C91AA6400A4D6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCA76361C91AA6400A4D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCA76371C91AA6400A4D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCA76391C91AA6400A4D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS9 之后的定位/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABCA763A1C91AA6400A4D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS9 之后的定位/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABCA763C1C91AA6400A4D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS9 之后的定位Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS9 之后的定位.app/iOS9 之后的定位";
+			};
+			name = Debug;
+		};
+		ABCA763D1C91AA6400A4D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS9 之后的定位Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS9 之后的定位.app/iOS9 之后的定位";
+			};
+			name = Release;
+		};
+		ABCA763F1C91AA6400A4D6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS9 之后的定位UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS9 之后的定位";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABCA76401C91AA6400A4D6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS9 之后的定位UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.iOS9------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS9 之后的定位";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCA760B1C91AA6400A4D6F9 /* Build configuration list for PBXProject "iOS9 之后的定位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA76361C91AA6400A4D6F9 /* Debug */,
+				ABCA76371C91AA6400A4D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCA76381C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA76391C91AA6400A4D6F9 /* Debug */,
+				ABCA763A1C91AA6400A4D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCA763B1C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA763C1C91AA6400A4D6F9 /* Debug */,
+				ABCA763D1C91AA6400A4D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABCA763E1C91AA6400A4D6F9 /* Build configuration list for PBXNativeTarget "iOS9 之后的定位UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA763F1C91AA6400A4D6F9 /* Debug */,
+				ABCA76401C91AA6400A4D6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCA76081C91AA6400A4D6F9 /* Project object */;
+}
