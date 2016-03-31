@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1C34281C97FDEB00C7A854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C34271C97FDEB00C7A854 /* AppDelegate.swift */; };
+		AB1C342A1C97FDEB00C7A854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C34291C97FDEB00C7A854 /* ViewController.swift */; };
+		AB1C342D1C97FDEB00C7A854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C342B1C97FDEB00C7A854 /* Main.storyboard */; };
+		AB1C342F1C97FDEB00C7A854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C342E1C97FDEB00C7A854 /* Assets.xcassets */; };
+		AB1C34321C97FDEB00C7A854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C34301C97FDEB00C7A854 /* LaunchScreen.storyboard */; };
+		AB1C343D1C97FDEB00C7A854 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C343C1C97FDEB00C7A854 /* ___Tests.swift */; };
+		AB1C34481C97FDEB00C7A854 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C34471C97FDEB00C7A854 /* ___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1C34391C97FDEB00C7A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C341C1C97FDEB00C7A854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C34231C97FDEB00C7A854;
+			remoteInfo = "加速计";
+		};
+		AB1C34441C97FDEB00C7A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C341C1C97FDEB00C7A854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C34231C97FDEB00C7A854;
+			remoteInfo = "加速计";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1C34241C97FDEB00C7A854 /* 加速计.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加速计.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C34271C97FDEB00C7A854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1C34291C97FDEB00C7A854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB1C342C1C97FDEB00C7A854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1C342E1C97FDEB00C7A854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1C34311C97FDEB00C7A854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1C34331C97FDEB00C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C34381C97FDEB00C7A854 /* 加速计Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加速计Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C343C1C97FDEB00C7A854 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		AB1C343E1C97FDEB00C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C34431C97FDEB00C7A854 /* 加速计UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加速计UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C34471C97FDEB00C7A854 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		AB1C34491C97FDEB00C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1C34211C97FDEB00C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C34351C97FDEB00C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C34401C97FDEB00C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1C341B1C97FDEB00C7A854 = {
+			isa = PBXGroup;
+			children = (
+				AB1C34261C97FDEB00C7A854 /* 加速计 */,
+				AB1C343B1C97FDEB00C7A854 /* 加速计Tests */,
+				AB1C34461C97FDEB00C7A854 /* 加速计UITests */,
+				AB1C34251C97FDEB00C7A854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1C34251C97FDEB00C7A854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C34241C97FDEB00C7A854 /* 加速计.app */,
+				AB1C34381C97FDEB00C7A854 /* 加速计Tests.xctest */,
+				AB1C34431C97FDEB00C7A854 /* 加速计UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1C34261C97FDEB00C7A854 /* 加速计 */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C34271C97FDEB00C7A854 /* AppDelegate.swift */,
+				AB1C34291C97FDEB00C7A854 /* ViewController.swift */,
+				AB1C342B1C97FDEB00C7A854 /* Main.storyboard */,
+				AB1C342E1C97FDEB00C7A854 /* Assets.xcassets */,
+				AB1C34301C97FDEB00C7A854 /* LaunchScreen.storyboard */,
+				AB1C34331C97FDEB00C7A854 /* Info.plist */,
+			);
+			path = "加速计";
+			sourceTree = "<group>";
+		};
+		AB1C343B1C97FDEB00C7A854 /* 加速计Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C343C1C97FDEB00C7A854 /* ___Tests.swift */,
+				AB1C343E1C97FDEB00C7A854 /* Info.plist */,
+			);
+			path = "加速计Tests";
+			sourceTree = "<group>";
+		};
+		AB1C34461C97FDEB00C7A854 /* 加速计UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C34471C97FDEB00C7A854 /* ___UITests.swift */,
+				AB1C34491C97FDEB00C7A854 /* Info.plist */,
+			);
+			path = "加速计UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1C34231C97FDEB00C7A854 /* 加速计 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C344C1C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计" */;
+			buildPhases = (
+				AB1C34201C97FDEB00C7A854 /* Sources */,
+				AB1C34211C97FDEB00C7A854 /* Frameworks */,
+				AB1C34221C97FDEB00C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加速计";
+			productName = "加速计";
+			productReference = AB1C34241C97FDEB00C7A854 /* 加速计.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1C34371C97FDEB00C7A854 /* 加速计Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C344F1C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计Tests" */;
+			buildPhases = (
+				AB1C34341C97FDEB00C7A854 /* Sources */,
+				AB1C34351C97FDEB00C7A854 /* Frameworks */,
+				AB1C34361C97FDEB00C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C343A1C97FDEB00C7A854 /* PBXTargetDependency */,
+			);
+			name = "加速计Tests";
+			productName = "加速计Tests";
+			productReference = AB1C34381C97FDEB00C7A854 /* 加速计Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1C34421C97FDEB00C7A854 /* 加速计UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C34521C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计UITests" */;
+			buildPhases = (
+				AB1C343F1C97FDEB00C7A854 /* Sources */,
+				AB1C34401C97FDEB00C7A854 /* Frameworks */,
+				AB1C34411C97FDEB00C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C34451C97FDEB00C7A854 /* PBXTargetDependency */,
+			);
+			name = "加速计UITests";
+			productName = "加速计UITests";
+			productReference = AB1C34431C97FDEB00C7A854 /* 加速计UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1C341C1C97FDEB00C7A854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = czljcb;
+				TargetAttributes = {
+					AB1C34231C97FDEB00C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+					};
+					AB1C34371C97FDEB00C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = AB1C34231C97FDEB00C7A854;
+					};
+					AB1C34421C97FDEB00C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = AB1C34231C97FDEB00C7A854;
+					};
+				};
+			};
+			buildConfigurationList = AB1C341F1C97FDEB00C7A854 /* Build configuration list for PBXProject "加速计" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1C341B1C97FDEB00C7A854;
+			productRefGroup = AB1C34251C97FDEB00C7A854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1C34231C97FDEB00C7A854 /* 加速计 */,
+				AB1C34371C97FDEB00C7A854 /* 加速计Tests */,
+				AB1C34421C97FDEB00C7A854 /* 加速计UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1C34221C97FDEB00C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C34321C97FDEB00C7A854 /* LaunchScreen.storyboard in Resources */,
+				AB1C342F1C97FDEB00C7A854 /* Assets.xcassets in Resources */,
+				AB1C342D1C97FDEB00C7A854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C34361C97FDEB00C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C34411C97FDEB00C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1C34201C97FDEB00C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C342A1C97FDEB00C7A854 /* ViewController.swift in Sources */,
+				AB1C34281C97FDEB00C7A854 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C34341C97FDEB00C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C343D1C97FDEB00C7A854 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C343F1C97FDEB00C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C34481C97FDEB00C7A854 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1C343A1C97FDEB00C7A854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C34231C97FDEB00C7A854 /* 加速计 */;
+			targetProxy = AB1C34391C97FDEB00C7A854 /* PBXContainerItemProxy */;
+		};
+		AB1C34451C97FDEB00C7A854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C34231C97FDEB00C7A854 /* 加速计 */;
+			targetProxy = AB1C34441C97FDEB00C7A854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1C342B1C97FDEB00C7A854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C342C1C97FDEB00C7A854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1C34301C97FDEB00C7A854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C34311C97FDEB00C7A854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1C344A1C97FDEB00C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1C344B1C97FDEB00C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1C344D1C97FDEB00C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加速计/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---iOS4--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1C344E1C97FDEB00C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "加速计/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---iOS4--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB1C34501C97FDEB00C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "加速计Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加速计.app/加速计";
+			};
+			name = Debug;
+		};
+		AB1C34511C97FDEB00C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "加速计Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/加速计.app/加速计";
+			};
+			name = Release;
+		};
+		AB1C34531C97FDEB00C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "加速计UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "加速计";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB1C34541C97FDEB00C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "加速计UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "加速计";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1C341F1C97FDEB00C7A854 /* Build configuration list for PBXProject "加速计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C344A1C97FDEB00C7A854 /* Debug */,
+				AB1C344B1C97FDEB00C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1C344C1C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C344D1C97FDEB00C7A854 /* Debug */,
+				AB1C344E1C97FDEB00C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C344F1C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C34501C97FDEB00C7A854 /* Debug */,
+				AB1C34511C97FDEB00C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C34521C97FDEB00C7A854 /* Build configuration list for PBXNativeTarget "加速计UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C34531C97FDEB00C7A854 /* Debug */,
+				AB1C34541C97FDEB00C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1C341C1C97FDEB00C7A854 /* Project object */;
+}

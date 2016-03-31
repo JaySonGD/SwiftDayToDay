@@ -14,8 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let p = Person()
-        p.name = "json"
+        let p = Person.share
+        let p1 = Person.share
+        
+        
+        
+        print(p,p1)
+        //p.name = "json"
     }
 
     override func didReceiveMemoryWarning() {

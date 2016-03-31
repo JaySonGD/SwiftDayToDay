@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF4AF8B1C9BAA10005287DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AF8A1C9BAA10005287DE /* main.m */; };
+		ABF4AF8E1C9BAA10005287DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AF8D1C9BAA10005287DE /* AppDelegate.m */; };
+		ABF4AF911C9BAA10005287DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AF901C9BAA10005287DE /* ViewController.m */; };
+		ABF4AF941C9BAA10005287DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4AF921C9BAA10005287DE /* Main.storyboard */; };
+		ABF4AF961C9BAA10005287DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF4AF951C9BAA10005287DE /* Assets.xcassets */; };
+		ABF4AF991C9BAA10005287DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF4AF971C9BAA10005287DE /* LaunchScreen.storyboard */; };
+		ABF4AFA41C9BAA10005287DE /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AFA31C9BAA10005287DE /* ______Tests.m */; };
+		ABF4AFAF1C9BAA10005287DE /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AFAE1C9BAA10005287DE /* ______UITests.m */; };
+		ABF4AFBE1C9BAA27005287DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF4AFBD1C9BAA27005287DE /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF4AFA01C9BAA10005287DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF4AF7E1C9BAA10005287DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF4AF851C9BAA10005287DE;
+			remoteInfo = "静态内存分析";
+		};
+		ABF4AFAB1C9BAA10005287DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF4AF7E1C9BAA10005287DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF4AF851C9BAA10005287DE;
+			remoteInfo = "静态内存分析";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF4AF861C9BAA10005287DE /* 静态内存分析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "静态内存分析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4AF8A1C9BAA10005287DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF4AF8C1C9BAA10005287DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF4AF8D1C9BAA10005287DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF4AF8F1C9BAA10005287DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF4AF901C9BAA10005287DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF4AF931C9BAA10005287DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF4AF951C9BAA10005287DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF4AF981C9BAA10005287DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF4AF9A1C9BAA10005287DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4AF9F1C9BAA10005287DE /* 静态内存分析Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "静态内存分析Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4AFA31C9BAA10005287DE /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		ABF4AFA51C9BAA10005287DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4AFAA1C9BAA10005287DE /* 静态内存分析UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "静态内存分析UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF4AFAE1C9BAA10005287DE /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		ABF4AFB01C9BAA10005287DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF4AFBC1C9BAA27005287DE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ABF4AFBD1C9BAA27005287DE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF4AF831C9BAA10005287DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AF9C1C9BAA10005287DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AFA71C9BAA10005287DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF4AF7D1C9BAA10005287DE = {
+			isa = PBXGroup;
+			children = (
+				ABF4AF881C9BAA10005287DE /* 静态内存分析 */,
+				ABF4AFA21C9BAA10005287DE /* 静态内存分析Tests */,
+				ABF4AFAD1C9BAA10005287DE /* 静态内存分析UITests */,
+				ABF4AF871C9BAA10005287DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF4AF871C9BAA10005287DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4AF861C9BAA10005287DE /* 静态内存分析.app */,
+				ABF4AF9F1C9BAA10005287DE /* 静态内存分析Tests.xctest */,
+				ABF4AFAA1C9BAA10005287DE /* 静态内存分析UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF4AF881C9BAA10005287DE /* 静态内存分析 */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4AF8C1C9BAA10005287DE /* AppDelegate.h */,
+				ABF4AF8D1C9BAA10005287DE /* AppDelegate.m */,
+				ABF4AF8F1C9BAA10005287DE /* ViewController.h */,
+				ABF4AF901C9BAA10005287DE /* ViewController.m */,
+				ABF4AF921C9BAA10005287DE /* Main.storyboard */,
+				ABF4AF951C9BAA10005287DE /* Assets.xcassets */,
+				ABF4AF971C9BAA10005287DE /* LaunchScreen.storyboard */,
+				ABF4AF9A1C9BAA10005287DE /* Info.plist */,
+				ABF4AF891C9BAA10005287DE /* Supporting Files */,
+				ABF4AFBC1C9BAA27005287DE /* Person.h */,
+				ABF4AFBD1C9BAA27005287DE /* Person.m */,
+			);
+			path = "静态内存分析";
+			sourceTree = "<group>";
+		};
+		ABF4AF891C9BAA10005287DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4AF8A1C9BAA10005287DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF4AFA21C9BAA10005287DE /* 静态内存分析Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4AFA31C9BAA10005287DE /* ______Tests.m */,
+				ABF4AFA51C9BAA10005287DE /* Info.plist */,
+			);
+			path = "静态内存分析Tests";
+			sourceTree = "<group>";
+		};
+		ABF4AFAD1C9BAA10005287DE /* 静态内存分析UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF4AFAE1C9BAA10005287DE /* ______UITests.m */,
+				ABF4AFB01C9BAA10005287DE /* Info.plist */,
+			);
+			path = "静态内存分析UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF4AF851C9BAA10005287DE /* 静态内存分析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4AFB31C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析" */;
+			buildPhases = (
+				ABF4AF821C9BAA10005287DE /* Sources */,
+				ABF4AF831C9BAA10005287DE /* Frameworks */,
+				ABF4AF841C9BAA10005287DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "静态内存分析";
+			productName = "静态内存分析";
+			productReference = ABF4AF861C9BAA10005287DE /* 静态内存分析.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF4AF9E1C9BAA10005287DE /* 静态内存分析Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4AFB61C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析Tests" */;
+			buildPhases = (
+				ABF4AF9B1C9BAA10005287DE /* Sources */,
+				ABF4AF9C1C9BAA10005287DE /* Frameworks */,
+				ABF4AF9D1C9BAA10005287DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF4AFA11C9BAA10005287DE /* PBXTargetDependency */,
+			);
+			name = "静态内存分析Tests";
+			productName = "静态内存分析Tests";
+			productReference = ABF4AF9F1C9BAA10005287DE /* 静态内存分析Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF4AFA91C9BAA10005287DE /* 静态内存分析UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF4AFB91C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析UITests" */;
+			buildPhases = (
+				ABF4AFA61C9BAA10005287DE /* Sources */,
+				ABF4AFA71C9BAA10005287DE /* Frameworks */,
+				ABF4AFA81C9BAA10005287DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF4AFAC1C9BAA10005287DE /* PBXTargetDependency */,
+			);
+			name = "静态内存分析UITests";
+			productName = "静态内存分析UITests";
+			productReference = ABF4AFAA1C9BAA10005287DE /* 静态内存分析UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF4AF7E1C9BAA10005287DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lQ;
+				TargetAttributes = {
+					ABF4AF851C9BAA10005287DE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+					};
+					ABF4AF9E1C9BAA10005287DE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABF4AF851C9BAA10005287DE;
+					};
+					ABF4AFA91C9BAA10005287DE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABF4AF851C9BAA10005287DE;
+					};
+				};
+			};
+			buildConfigurationList = ABF4AF811C9BAA10005287DE /* Build configuration list for PBXProject "静态内存分析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF4AF7D1C9BAA10005287DE;
+			productRefGroup = ABF4AF871C9BAA10005287DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF4AF851C9BAA10005287DE /* 静态内存分析 */,
+				ABF4AF9E1C9BAA10005287DE /* 静态内存分析Tests */,
+				ABF4AFA91C9BAA10005287DE /* 静态内存分析UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF4AF841C9BAA10005287DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4AF991C9BAA10005287DE /* LaunchScreen.storyboard in Resources */,
+				ABF4AF961C9BAA10005287DE /* Assets.xcassets in Resources */,
+				ABF4AF941C9BAA10005287DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AF9D1C9BAA10005287DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AFA81C9BAA10005287DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF4AF821C9BAA10005287DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4AF911C9BAA10005287DE /* ViewController.m in Sources */,
+				ABF4AF8E1C9BAA10005287DE /* AppDelegate.m in Sources */,
+				ABF4AFBE1C9BAA27005287DE /* Person.m in Sources */,
+				ABF4AF8B1C9BAA10005287DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AF9B1C9BAA10005287DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4AFA41C9BAA10005287DE /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4AFA61C9BAA10005287DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF4AFAF1C9BAA10005287DE /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF4AFA11C9BAA10005287DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF4AF851C9BAA10005287DE /* 静态内存分析 */;
+			targetProxy = ABF4AFA01C9BAA10005287DE /* PBXContainerItemProxy */;
+		};
+		ABF4AFAC1C9BAA10005287DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF4AF851C9BAA10005287DE /* 静态内存分析 */;
+			targetProxy = ABF4AFAB1C9BAA10005287DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF4AF921C9BAA10005287DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF4AF931C9BAA10005287DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF4AF971C9BAA10005287DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF4AF981C9BAA10005287DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF4AFB11C9BAA10005287DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABF4AFB21C9BAA10005287DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF4AFB41C9BAA10005287DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "静态内存分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF4AFB51C9BAA10005287DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "静态内存分析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABF4AFB71C9BAA10005287DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "静态内存分析Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/静态内存分析.app/静态内存分析";
+			};
+			name = Debug;
+		};
+		ABF4AFB81C9BAA10005287DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "静态内存分析Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/静态内存分析.app/静态内存分析";
+			};
+			name = Release;
+		};
+		ABF4AFBA1C9BAA10005287DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "静态内存分析UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "静态内存分析";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABF4AFBB1C9BAA10005287DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "静态内存分析UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "静态内存分析";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF4AF811C9BAA10005287DE /* Build configuration list for PBXProject "静态内存分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4AFB11C9BAA10005287DE /* Debug */,
+				ABF4AFB21C9BAA10005287DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF4AFB31C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4AFB41C9BAA10005287DE /* Debug */,
+				ABF4AFB51C9BAA10005287DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF4AFB61C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4AFB71C9BAA10005287DE /* Debug */,
+				ABF4AFB81C9BAA10005287DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF4AFB91C9BAA10005287DE /* Build configuration list for PBXNativeTarget "静态内存分析UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF4AFBA1C9BAA10005287DE /* Debug */,
+				ABF4AFBB1C9BAA10005287DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF4AF7E1C9BAA10005287DE /* Project object */;
+}

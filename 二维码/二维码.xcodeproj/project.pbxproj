@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBAE0201C95866800DA7999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAE01F1C95866800DA7999 /* AppDelegate.swift */; };
+		ABBAE0221C95866800DA7999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAE0211C95866800DA7999 /* ViewController.swift */; };
+		ABBAE0251C95866800DA7999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBAE0231C95866800DA7999 /* Main.storyboard */; };
+		ABBAE0271C95866800DA7999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBAE0261C95866800DA7999 /* Assets.xcassets */; };
+		ABBAE02A1C95866800DA7999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBAE0281C95866800DA7999 /* LaunchScreen.storyboard */; };
+		ABBAE0351C95866800DA7999 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAE0341C95866800DA7999 /* ___Tests.swift */; };
+		ABBAE0401C95866800DA7999 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAE03F1C95866800DA7999 /* ___UITests.swift */; };
+		ABBAE04E1C9586C300DA7999 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBAE04D1C9586C300DA7999 /* CoreImage.framework */; };
+		ABBAE0551C958A1900DA7999 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBAE0541C958A1900DA7999 /* UIImage+QRCode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBAE0311C95866800DA7999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBAE0141C95866700DA7999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBAE01B1C95866700DA7999;
+			remoteInfo = "二维码";
+		};
+		ABBAE03C1C95866800DA7999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBAE0141C95866700DA7999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBAE01B1C95866700DA7999;
+			remoteInfo = "二维码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABBAE01C1C95866800DA7999 /* 二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBAE01F1C95866800DA7999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABBAE0211C95866800DA7999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABBAE0241C95866800DA7999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBAE0261C95866800DA7999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBAE0291C95866800DA7999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABBAE02B1C95866800DA7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBAE0301C95866800DA7999 /* 二维码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBAE0341C95866800DA7999 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		ABBAE0361C95866800DA7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBAE03B1C95866800DA7999 /* 二维码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBAE03F1C95866800DA7999 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		ABBAE0411C95866800DA7999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBAE04D1C9586C300DA7999 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		ABBAE04F1C9589F700DA7999 /* 二维码-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "二维码-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABBAE0531C958A1900DA7999 /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		ABBAE0541C958A1900DA7999 /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBAE0191C95866700DA7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBAE04E1C9586C300DA7999 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE02D1C95866800DA7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE0381C95866800DA7999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBAE0131C95866700DA7999 = {
+			isa = PBXGroup;
+			children = (
+				ABBAE04D1C9586C300DA7999 /* CoreImage.framework */,
+				ABBAE01E1C95866800DA7999 /* 二维码 */,
+				ABBAE0331C95866800DA7999 /* 二维码Tests */,
+				ABBAE03E1C95866800DA7999 /* 二维码UITests */,
+				ABBAE01D1C95866800DA7999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBAE01D1C95866800DA7999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBAE01C1C95866800DA7999 /* 二维码.app */,
+				ABBAE0301C95866800DA7999 /* 二维码Tests.xctest */,
+				ABBAE03B1C95866800DA7999 /* 二维码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBAE01E1C95866800DA7999 /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				ABBAE01F1C95866800DA7999 /* AppDelegate.swift */,
+				ABBAE0211C95866800DA7999 /* ViewController.swift */,
+				ABBAE0231C95866800DA7999 /* Main.storyboard */,
+				ABBAE0261C95866800DA7999 /* Assets.xcassets */,
+				ABBAE0281C95866800DA7999 /* LaunchScreen.storyboard */,
+				ABBAE02B1C95866800DA7999 /* Info.plist */,
+				ABBAE04F1C9589F700DA7999 /* 二维码-Bridging-Header.h */,
+				ABBAE0531C958A1900DA7999 /* UIImage+QRCode.h */,
+				ABBAE0541C958A1900DA7999 /* UIImage+QRCode.m */,
+			);
+			path = "二维码";
+			sourceTree = "<group>";
+		};
+		ABBAE0331C95866800DA7999 /* 二维码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBAE0341C95866800DA7999 /* ___Tests.swift */,
+				ABBAE0361C95866800DA7999 /* Info.plist */,
+			);
+			path = "二维码Tests";
+			sourceTree = "<group>";
+		};
+		ABBAE03E1C95866800DA7999 /* 二维码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABBAE03F1C95866800DA7999 /* ___UITests.swift */,
+				ABBAE0411C95866800DA7999 /* Info.plist */,
+			);
+			path = "二维码UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBAE01B1C95866700DA7999 /* 二维码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBAE0441C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码" */;
+			buildPhases = (
+				ABBAE0181C95866700DA7999 /* Sources */,
+				ABBAE0191C95866700DA7999 /* Frameworks */,
+				ABBAE01A1C95866700DA7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "二维码";
+			productName = "二维码";
+			productReference = ABBAE01C1C95866800DA7999 /* 二维码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBAE02F1C95866800DA7999 /* 二维码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBAE0471C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码Tests" */;
+			buildPhases = (
+				ABBAE02C1C95866800DA7999 /* Sources */,
+				ABBAE02D1C95866800DA7999 /* Frameworks */,
+				ABBAE02E1C95866800DA7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBAE0321C95866800DA7999 /* PBXTargetDependency */,
+			);
+			name = "二维码Tests";
+			productName = "二维码Tests";
+			productReference = ABBAE0301C95866800DA7999 /* 二维码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABBAE03A1C95866800DA7999 /* 二维码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBAE04A1C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码UITests" */;
+			buildPhases = (
+				ABBAE0371C95866800DA7999 /* Sources */,
+				ABBAE0381C95866800DA7999 /* Frameworks */,
+				ABBAE0391C95866800DA7999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBAE03D1C95866800DA7999 /* PBXTargetDependency */,
+			);
+			name = "二维码UITests";
+			productName = "二维码UITests";
+			productReference = ABBAE03B1C95866800DA7999 /* 二维码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBAE0141C95866700DA7999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = czljcb;
+				TargetAttributes = {
+					ABBAE01B1C95866700DA7999 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+					};
+					ABBAE02F1C95866800DA7999 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABBAE01B1C95866700DA7999;
+					};
+					ABBAE03A1C95866800DA7999 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = ABBAE01B1C95866700DA7999;
+					};
+				};
+			};
+			buildConfigurationList = ABBAE0171C95866700DA7999 /* Build configuration list for PBXProject "二维码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBAE0131C95866700DA7999;
+			productRefGroup = ABBAE01D1C95866800DA7999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBAE01B1C95866700DA7999 /* 二维码 */,
+				ABBAE02F1C95866800DA7999 /* 二维码Tests */,
+				ABBAE03A1C95866800DA7999 /* 二维码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBAE01A1C95866700DA7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBAE02A1C95866800DA7999 /* LaunchScreen.storyboard in Resources */,
+				ABBAE0271C95866800DA7999 /* Assets.xcassets in Resources */,
+				ABBAE0251C95866800DA7999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE02E1C95866800DA7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE0391C95866800DA7999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBAE0181C95866700DA7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBAE0551C958A1900DA7999 /* UIImage+QRCode.m in Sources */,
+				ABBAE0221C95866800DA7999 /* ViewController.swift in Sources */,
+				ABBAE0201C95866800DA7999 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE02C1C95866800DA7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBAE0351C95866800DA7999 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBAE0371C95866800DA7999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBAE0401C95866800DA7999 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBAE0321C95866800DA7999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBAE01B1C95866700DA7999 /* 二维码 */;
+			targetProxy = ABBAE0311C95866800DA7999 /* PBXContainerItemProxy */;
+		};
+		ABBAE03D1C95866800DA7999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBAE01B1C95866700DA7999 /* 二维码 */;
+			targetProxy = ABBAE03C1C95866800DA7999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABBAE0231C95866800DA7999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBAE0241C95866800DA7999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBAE0281C95866800DA7999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBAE0291C95866800DA7999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBAE0421C95866800DA7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBAE0431C95866800DA7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBAE0451C95866800DA7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "二维码/二维码-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBAE0461C95866800DA7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "二维码/二维码-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ABBAE0481C95866800DA7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码.app/二维码";
+			};
+			name = Debug;
+		};
+		ABBAE0491C95866800DA7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/二维码.app/二维码";
+			};
+			name = Release;
+		};
+		ABBAE04B1C95866800DA7999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二维码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABBAE04C1C95866800DA7999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "二维码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBAE0171C95866700DA7999 /* Build configuration list for PBXProject "二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBAE0421C95866800DA7999 /* Debug */,
+				ABBAE0431C95866800DA7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBAE0441C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBAE0451C95866800DA7999 /* Debug */,
+				ABBAE0461C95866800DA7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBAE0471C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBAE0481C95866800DA7999 /* Debug */,
+				ABBAE0491C95866800DA7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABBAE04A1C95866800DA7999 /* Build configuration list for PBXNativeTarget "二维码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBAE04B1C95866800DA7999 /* Debug */,
+				ABBAE04C1C95866800DA7999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBAE0141C95866700DA7999 /* Project object */;
+}

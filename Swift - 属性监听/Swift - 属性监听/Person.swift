@@ -10,6 +10,8 @@ import UIKit
 
 class Person: NSObject {
     
+    static var share: Person = Person()
+    
     var name : String?{
         
         willSet{

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1C33B41C97BFA200C7A854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C33B31C97BFA200C7A854 /* AppDelegate.swift */; };
+		AB1C33B61C97BFA200C7A854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C33B51C97BFA200C7A854 /* ViewController.swift */; };
+		AB1C33B91C97BFA200C7A854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C33B71C97BFA200C7A854 /* Main.storyboard */; };
+		AB1C33BB1C97BFA200C7A854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C33BA1C97BFA200C7A854 /* Assets.xcassets */; };
+		AB1C33BE1C97BFA200C7A854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C33BC1C97BFA200C7A854 /* LaunchScreen.storyboard */; };
+		AB1C33C91C97BFA200C7A854 /* ______deviceTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C33C81C97BFA200C7A854 /* ______deviceTokenTests.swift */; };
+		AB1C33D41C97BFA200C7A854 /* ______deviceTokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C33D31C97BFA200C7A854 /* ______deviceTokenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB1C33C51C97BFA200C7A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C33A81C97BFA200C7A854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C33AF1C97BFA200C7A854;
+			remoteInfo = "请求苹果获得deviceToken";
+		};
+		AB1C33D01C97BFA200C7A854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1C33A81C97BFA200C7A854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1C33AF1C97BFA200C7A854;
+			remoteInfo = "请求苹果获得deviceToken";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1C33B01C97BFA200C7A854 /* 请求苹果获得deviceToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "请求苹果获得deviceToken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C33B31C97BFA200C7A854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1C33B51C97BFA200C7A854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB1C33B81C97BFA200C7A854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1C33BA1C97BFA200C7A854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1C33BD1C97BFA200C7A854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1C33BF1C97BFA200C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C33C41C97BFA200C7A854 /* 请求苹果获得deviceTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "请求苹果获得deviceTokenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C33C81C97BFA200C7A854 /* ______deviceTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______deviceTokenTests.swift"; sourceTree = "<group>"; };
+		AB1C33CA1C97BFA200C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C33CF1C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "请求苹果获得deviceTokenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1C33D31C97BFA200C7A854 /* ______deviceTokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______deviceTokenUITests.swift"; sourceTree = "<group>"; };
+		AB1C33D51C97BFA200C7A854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1C33AD1C97BFA200C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33C11C97BFA200C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33CC1C97BFA200C7A854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1C33A71C97BFA200C7A854 = {
+			isa = PBXGroup;
+			children = (
+				AB1C33B21C97BFA200C7A854 /* 请求苹果获得deviceToken */,
+				AB1C33C71C97BFA200C7A854 /* 请求苹果获得deviceTokenTests */,
+				AB1C33D21C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests */,
+				AB1C33B11C97BFA200C7A854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1C33B11C97BFA200C7A854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C33B01C97BFA200C7A854 /* 请求苹果获得deviceToken.app */,
+				AB1C33C41C97BFA200C7A854 /* 请求苹果获得deviceTokenTests.xctest */,
+				AB1C33CF1C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1C33B21C97BFA200C7A854 /* 请求苹果获得deviceToken */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C33B31C97BFA200C7A854 /* AppDelegate.swift */,
+				AB1C33B51C97BFA200C7A854 /* ViewController.swift */,
+				AB1C33B71C97BFA200C7A854 /* Main.storyboard */,
+				AB1C33BA1C97BFA200C7A854 /* Assets.xcassets */,
+				AB1C33BC1C97BFA200C7A854 /* LaunchScreen.storyboard */,
+				AB1C33BF1C97BFA200C7A854 /* Info.plist */,
+			);
+			path = "请求苹果获得deviceToken";
+			sourceTree = "<group>";
+		};
+		AB1C33C71C97BFA200C7A854 /* 请求苹果获得deviceTokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C33C81C97BFA200C7A854 /* ______deviceTokenTests.swift */,
+				AB1C33CA1C97BFA200C7A854 /* Info.plist */,
+			);
+			path = "请求苹果获得deviceTokenTests";
+			sourceTree = "<group>";
+		};
+		AB1C33D21C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C33D31C97BFA200C7A854 /* ______deviceTokenUITests.swift */,
+				AB1C33D51C97BFA200C7A854 /* Info.plist */,
+			);
+			path = "请求苹果获得deviceTokenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1C33AF1C97BFA200C7A854 /* 请求苹果获得deviceToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C33D81C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceToken" */;
+			buildPhases = (
+				AB1C33AC1C97BFA200C7A854 /* Sources */,
+				AB1C33AD1C97BFA200C7A854 /* Frameworks */,
+				AB1C33AE1C97BFA200C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "请求苹果获得deviceToken";
+			productName = "请求苹果获得deviceToken";
+			productReference = AB1C33B01C97BFA200C7A854 /* 请求苹果获得deviceToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB1C33C31C97BFA200C7A854 /* 请求苹果获得deviceTokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C33DB1C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceTokenTests" */;
+			buildPhases = (
+				AB1C33C01C97BFA200C7A854 /* Sources */,
+				AB1C33C11C97BFA200C7A854 /* Frameworks */,
+				AB1C33C21C97BFA200C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C33C61C97BFA200C7A854 /* PBXTargetDependency */,
+			);
+			name = "请求苹果获得deviceTokenTests";
+			productName = "请求苹果获得deviceTokenTests";
+			productReference = AB1C33C41C97BFA200C7A854 /* 请求苹果获得deviceTokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB1C33CE1C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1C33DE1C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceTokenUITests" */;
+			buildPhases = (
+				AB1C33CB1C97BFA200C7A854 /* Sources */,
+				AB1C33CC1C97BFA200C7A854 /* Frameworks */,
+				AB1C33CD1C97BFA200C7A854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1C33D11C97BFA200C7A854 /* PBXTargetDependency */,
+			);
+			name = "请求苹果获得deviceTokenUITests";
+			productName = "请求苹果获得deviceTokenUITests";
+			productReference = AB1C33CF1C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1C33A81C97BFA200C7A854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = czljcb;
+				TargetAttributes = {
+					AB1C33AF1C97BFA200C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+					};
+					AB1C33C31C97BFA200C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = AB1C33AF1C97BFA200C7A854;
+					};
+					AB1C33CE1C97BFA200C7A854 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R572233UJT;
+						TestTargetID = AB1C33AF1C97BFA200C7A854;
+					};
+				};
+			};
+			buildConfigurationList = AB1C33AB1C97BFA200C7A854 /* Build configuration list for PBXProject "请求苹果获得deviceToken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1C33A71C97BFA200C7A854;
+			productRefGroup = AB1C33B11C97BFA200C7A854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1C33AF1C97BFA200C7A854 /* 请求苹果获得deviceToken */,
+				AB1C33C31C97BFA200C7A854 /* 请求苹果获得deviceTokenTests */,
+				AB1C33CE1C97BFA200C7A854 /* 请求苹果获得deviceTokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1C33AE1C97BFA200C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C33BE1C97BFA200C7A854 /* LaunchScreen.storyboard in Resources */,
+				AB1C33BB1C97BFA200C7A854 /* Assets.xcassets in Resources */,
+				AB1C33B91C97BFA200C7A854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33C21C97BFA200C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33CD1C97BFA200C7A854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1C33AC1C97BFA200C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C33B61C97BFA200C7A854 /* ViewController.swift in Sources */,
+				AB1C33B41C97BFA200C7A854 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33C01C97BFA200C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C33C91C97BFA200C7A854 /* ______deviceTokenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1C33CB1C97BFA200C7A854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1C33D41C97BFA200C7A854 /* ______deviceTokenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB1C33C61C97BFA200C7A854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C33AF1C97BFA200C7A854 /* 请求苹果获得deviceToken */;
+			targetProxy = AB1C33C51C97BFA200C7A854 /* PBXContainerItemProxy */;
+		};
+		AB1C33D11C97BFA200C7A854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1C33AF1C97BFA200C7A854 /* 请求苹果获得deviceToken */;
+			targetProxy = AB1C33D01C97BFA200C7A854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1C33B71C97BFA200C7A854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C33B81C97BFA200C7A854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1C33BC1C97BFA200C7A854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1C33BD1C97BFA200C7A854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1C33D61C97BFA200C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB1C33D71C97BFA200C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1C33D91C97BFA200C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "请求苹果获得deviceToken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceToken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1C33DA1C97BFA200C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "请求苹果获得deviceToken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceToken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB1C33DC1C97BFA200C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "请求苹果获得deviceTokenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceTokenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/请求苹果获得deviceToken.app/请求苹果获得deviceToken";
+			};
+			name = Debug;
+		};
+		AB1C33DD1C97BFA200C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "请求苹果获得deviceTokenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceTokenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/请求苹果获得deviceToken.app/请求苹果获得deviceToken";
+			};
+			name = Release;
+		};
+		AB1C33DF1C97BFA200C7A854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "请求苹果获得deviceTokenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceTokenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "请求苹果获得deviceToken";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AB1C33E01C97BFA200C7A854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "请求苹果获得deviceTokenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CZ.------deviceTokenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "请求苹果获得deviceToken";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1C33AB1C97BFA200C7A854 /* Build configuration list for PBXProject "请求苹果获得deviceToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C33D61C97BFA200C7A854 /* Debug */,
+				AB1C33D71C97BFA200C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1C33D81C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C33D91C97BFA200C7A854 /* Debug */,
+				AB1C33DA1C97BFA200C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C33DB1C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceTokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C33DC1C97BFA200C7A854 /* Debug */,
+				AB1C33DD1C97BFA200C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB1C33DE1C97BFA200C7A854 /* Build configuration list for PBXNativeTarget "请求苹果获得deviceTokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C33DF1C97BFA200C7A854 /* Debug */,
+				AB1C33E01C97BFA200C7A854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1C33A81C97BFA200C7A854 /* Project object */;
+}
